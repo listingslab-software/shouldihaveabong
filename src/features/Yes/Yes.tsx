@@ -7,14 +7,15 @@ import {
 
 export default function Yes() {    
     return (
-        <div className="App"><header className="App-header">
-            <Box sx={{display:"flex"}}>
+        
+            <Box sx={{
+                position:"relative"}
+            }>
                 <Box sx={{m:2}}>
                     <Typography variant="h3" sx={{fontWeight: "lighter"}}>
                         Yes.                  
                     </Typography>
                 </Box>
             </Box>
-        </header></div>
     )
 }

@@ -1,8 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import ctaReducer from '../features/CTA/ctaSlice';
 import yesReducer from '../features/Yes/yesSlice';
 
 export const store = configureStore({
   reducer: {
+    cta: ctaReducer,
     yes: yesReducer,
   },
 });
