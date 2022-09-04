@@ -1,4 +1,8 @@
-# Should I Have a Bong? (.com)
+# [Should I Have a Bong? (.com)](https://shouldihaveabong.com/)
+
+![shouldihaveabong.com](https://shouldihaveabong.com/featured.png)
+
+> 
 
 ## Instructions
 
@@ -8,3 +12,4 @@
 - Then build app and test locally
 - Then deploy
 - Basta.
+
