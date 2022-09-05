@@ -4,7 +4,9 @@ import {
     Typography,
 } from "@mui/material"
 
-export default function Flash() {    
+export default function Flash(props:any) {
+    const {children} = props;  
+
     return (
         
             <Box sx={{
@@ -14,6 +16,7 @@ export default function Flash() {
                     <Typography variant="body1" sx={{fontWeight: "lighter"}}>
                         Flash                  
                     </Typography>
+                    {children}
                 </Box>
             </Box>
     )

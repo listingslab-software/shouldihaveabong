@@ -19,13 +19,13 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <Box sx={{position:"relative"}}>
-        <CTA />
-        <Flash />
-        <Shared />
-        <Yes />
+        <Flash>
+          <CTA />
+          <Shared />
+          <Yes />
+        </Flash>
       </Box>
     </Provider>
-
   </React.StrictMode>
 );
 
