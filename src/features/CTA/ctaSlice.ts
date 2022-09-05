@@ -22,5 +22,5 @@ export const ctaSlice = createSlice({
 });
 
 export const { increment } = ctaSlice.actions;
-export const selectYes = (state: RootState) => state.cta;
+export const selectCTA = (state: RootState) => state.cta;
 export default ctaSlice.reducer;

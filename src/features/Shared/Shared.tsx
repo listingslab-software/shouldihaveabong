@@ -4,12 +4,12 @@ import {
     Typography,
 } from "@mui/material"
 
-export default function CTA() {    
+export default function Shared() {    
     return (
         <Box sx={{position:"relative"}}>
             <Box sx={{m:2}}>
                 <Typography variant="body1" sx={{fontWeight: "lighter"}}>
-                    Call To Action                 
+                    Shared               
                 </Typography>
             </Box>
         </Box>

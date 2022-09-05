@@ -1,5 +1,4 @@
 import React from 'react'
-import './Yes.css'
 import {
     Box,
     Typography,
@@ -12,7 +11,7 @@ export default function Yes() {
                 position:"relative"}
             }>
                 <Box sx={{m:2}}>
-                    <Typography variant="h3" sx={{fontWeight: "lighter"}}>
+                    <Typography variant="body1" sx={{fontWeight: "lighter"}}>
                         Yes.                  
                     </Typography>
                 </Box>
