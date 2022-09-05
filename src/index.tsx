@@ -7,6 +7,7 @@ import {
 } from "@mui/material"
 import {
   CTA,
+  Flash,
   Shared,
   Yes,
 } from "./features";
@@ -19,8 +20,9 @@ root.render(
     <Provider store={store}>
       <Box sx={{position:"relative"}}>
         <CTA />
-        <Yes />
+        <Flash />
         <Shared />
+        <Yes />
       </Box>
     </Provider>
 
