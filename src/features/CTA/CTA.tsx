@@ -9,7 +9,7 @@ export default function CTA() {
         <Box sx={{position:"relative"}}>
             <Box sx={{m:2}}>
                 <Typography variant="body1" sx={{fontWeight: "lighter"}}>
-                CTA                
+                    CTA                
                 </Typography>
             </Box>
         </Box>
