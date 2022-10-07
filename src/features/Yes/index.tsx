@@ -1,3 +1,7 @@
-import Yes from './Yes';
+import Yes from "./Yes";
+import NextCard from "./components/NextCard";
 
-export { Yes };
+export { 
+    Yes,
+    NextCard,
+};

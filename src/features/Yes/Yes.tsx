@@ -7,7 +7,8 @@ import {
     Link,
     Typography,
     
-} from "@mui/material"
+} from "@mui/material";
+import { NextCard } from "./";
 
 export default function Yes() {    
     const ncpSize = 66;
@@ -42,6 +43,13 @@ export default function Yes() {
                 >go diving</Link>.
             </Typography>
             </Box>
-        </header></div>
+            <Box sx={{mt:2}}>
+                <NextCard />
+            </Box>
+        </header>
+        
+                    
+        
+        </div>
     )
 }
