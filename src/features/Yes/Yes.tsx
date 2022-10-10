@@ -6,10 +6,9 @@ import {
     IconButton,
     Typography,
 } from "@mui/material";
-import {NextCard} from "../";
 
 export default function Yes() {    
-    const ncpSize = 66;
+    const ncpSize = 64;
     return (
         <div className="App"><header className="App-header">  
             <Box sx={{display: "flex"}}>    
@@ -23,14 +22,14 @@ export default function Yes() {
                         src="/svg/greenLeaf.svg" alt="Nice Cannabis People" />
                     </IconButton>
                 </Box>
-                <Box sx={{pt:1.25}}>
+                <Box sx={{pt:1, ml:0.5}}>
                     <Typography variant="h2" sx={{fontWeight: "lighter"}}>
-                        Yes. Yes you should               
+                        Yes.               
                     </Typography>
                 </Box>
             </Box>
             <Box sx={{mt:2}}>
-                <NextCard />
+                
             </Box>
         </header>
         
