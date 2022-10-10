@@ -4,11 +4,9 @@ import {
     Avatar,
     Box,
     IconButton,
-    Link,
     Typography,
-    
 } from "@mui/material";
-import { NextCard } from "./";
+import {NextCard} from "../";
 
 export default function Yes() {    
     const ncpSize = 66;
@@ -27,11 +25,23 @@ export default function Yes() {
                 </Box>
                 <Box sx={{pt:1.25}}>
                     <Typography variant="h2" sx={{fontWeight: "lighter"}}>
-                        Yes.                  
+                        Yes. Yes you should               
                     </Typography>
                 </Box>
             </Box>
-            <Box sx={{}}>
+            <Box sx={{mt:2}}>
+                <NextCard />
+            </Box>
+        </header>
+        
+                    
+        
+        </div>
+    )
+};
+
+/*
+<Box sx={{}}>
             <Typography variant="body2" sx={{fontWeight: "lighter"}}>
                 then&nbsp;
                 <Link
@@ -43,13 +53,4 @@ export default function Yes() {
                 >go diving</Link>.
             </Typography>
             </Box>
-            <Box sx={{mt:2}}>
-                <NextCard />
-            </Box>
-        </header>
-        
-                    
-        
-        </div>
-    )
-}
+*/

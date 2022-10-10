@@ -1,14 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
-
-export interface YesState {
-  value: number;
-  status: 'idle' | 'loading' | 'failed';
-}
+import {YesState} from "./YesTypes"
 
 const initialState: YesState = {
   value: 0,
-  status: 'idle',
+  status: "idle",
+  endpoint: "https://us-central1-listingslab-app.cloudfunctions.net/API/bongs",
+  fetched: false,
+  fetching: false,
 };
 
 export const yesSlice = createSlice({

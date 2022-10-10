@@ -1,5 +1,5 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import yesReducer from '../features/Yes/yesSlice';
+import yesReducer from '../Features/Yes/yesSlice';
 
 export const store = configureStore({
   reducer: {
