@@ -1,6 +1,5 @@
 ## [Should I Have a Bong? (.com)](https://shouldihaveabong.com/)
 
-
 ![shouldihaveabong.com](https://shouldihaveabong.com/png/featured.png)
 
 > Communities of like minded pot heads can use this free template to get set up
