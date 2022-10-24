@@ -5,6 +5,7 @@ import {
     Box,
     IconButton,
     Typography,
+    Link,
 } from "@mui/material";
 
 export default function Yes() {    
@@ -29,7 +30,18 @@ export default function Yes() {
                 </Box>
             </Box>
             <Box sx={{mt:2}}>
-                
+            <Box sx={{}}>
+            <Typography variant="body2" sx={{fontWeight: "lighter"}}>
+                then&nbsp;
+                <Link
+                    sx={{cursor: "pointer", color: "#1F760D"}}
+                    onClick={(e: React.MouseEvent) => {
+                        e.preventDefault();
+                        window.open("https://sensiseeds.com/en/feminized-seeds/whitelabel/northern-lights-automatic?a_aid=cannastore", "_self");
+                    }}
+                >grow your own</Link>.
+            </Typography>
+            </Box>
             </Box>
         </header>
         
@@ -40,16 +52,5 @@ export default function Yes() {
 };
 
 /*
-<Box sx={{}}>
-            <Typography variant="body2" sx={{fontWeight: "lighter"}}>
-                then&nbsp;
-                <Link
-                    sx={{cursor: "pointer", color: "#1F760D"}}
-                    onClick={(e: React.MouseEvent) => {
-                        e.preventDefault();
-                        window.open("https://divemalta.app", "_self");
-                    }}
-                >go diving</Link>.
-            </Typography>
-            </Box>
+
 */
