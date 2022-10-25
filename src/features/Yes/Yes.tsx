@@ -37,9 +37,9 @@ export default function Yes() {
                     sx={{cursor: "pointer", color: "#1F760D"}}
                     onClick={(e: React.MouseEvent) => {
                         e.preventDefault();
-                        window.open("https://sensiseeds.com/en/feminized-seeds/whitelabel/northern-lights-automatic?a_aid=cannastore", "_self");
+                        window.open("https://ncpapp.eu", "_self");
                     }}
-                >grow your own</Link>.
+                >meet Nice Cannabis People</Link>.
             </Typography>
             </Box>
             </Box>

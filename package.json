@@ -1,10 +1,9 @@
 {
   "name": "shouldihaveabong",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "deploy": "clear && npm run build && firebase deploy"
   },
   "dependencies": {
